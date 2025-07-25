@@ -1,0 +1,15 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    stdin_open: true
+    tty: true
+    command: ["npm", "run", "dev"]

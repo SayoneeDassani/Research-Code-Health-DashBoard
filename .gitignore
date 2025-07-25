@@ -1,0 +1,38 @@
+# Python / FastAPI
+backend/__pycache__/
+backend/.pytest_cache/
+backend/venv/
+*.pyc
+*.pyo
+*.pyd
+
+# Node / React
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/dist/
+frontend/.vite/
+
+# Environment files
+.env
+*.env
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# Docker
+**/__pycache__/
+**/*.pyc
+
+# Test coverage
+coverage/
+*.cover
+*.lcov
+*.lcov.info
+
+# VSCode
+.vscode/

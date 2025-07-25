@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'ui-monospace', 'SFMono-Regular', 'Menlo', monospace;
+  background-color: #0f172a; /* pastel navy */
+  color: white;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
